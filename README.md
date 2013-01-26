@@ -24,4 +24,4 @@ Here's how this goes down:
 
 7. This is more of an example of how HARD it is to send information optically, and how amazing it is that most of the worlds information is encoded optically at some point. :)
 
-(http://gipper.github.com/RasPiBinaryDecoder/images/BinaryLetters.png)
+![BinaryLetters](http://gipper.github.com/RasPiBinaryDecoder/images/BinaryLetters.png)
