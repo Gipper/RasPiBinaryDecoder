@@ -16,32 +16,43 @@ Meanwhile my 4th grader was nearby and was having a great time constructing a "s
 
 It didn't take long to start thinking about how to separate two discrete digits of the same value. You may think to solve this issue by timing the length of the pulses. Although you CAN solve the issue this way, in this case there wasn't a practical way to do it. Ideas of rolling a sled downhill and robotically pulling the digits through were quickly discarded.
 
-Thinking back to some signal processing classes in college yielded the answer. By continuously sending a baseline signal, and then recording the increase and decrease of this signal, timing clock issues are completely avoided. This is, in fact, closer to how optical information is encoded. (Look up In-Pit and On-pit) and you'll find various documents that explain the modulation of DVD-ROM's, etc. using this technique. Beam modulation in high density fiber cables is also similar (but a LOT more complex).
+Thinking back to some signal processing classes in college yielded the answer. By continuously sending a baseline signal, and then recording the increase and decrease of this signal, timing clock issues are completely avoided. This is, in fact, closer to how optical information is encoded. Look up In-Pit and On-pit and you'll find various documents that explain the modulation of DVD-ROM's, etc. using this technique. Beam modulation in high density fiber cables is also similar (but a LOT more complex).
 
-We conclusively proved this approach by adding a bit of scotch tape to act as the substrate that the "Pits" and "Holes" could then be modified upon. (We used a marker to block the beam, and a hole punch to allow it). After this modification we could pull coded letters through the beam at any speed with no trouble. You could even leave the code in place halfway through the sequence, come back the next day, and complete the transmission.
+![InOnPit](http://gipper.github.com/RasPiBinaryDecoder/images/InOnPit.png)
 
-In the remaining time we made the binary codes for each letter and attached them to straws to make them easier to push through the beam. Eventually, I attached an old optical cable and fed the beam into it, with the other end near the photoresistor. The RaspberryPi code was trival, largely due to using Adafruit's Learning System and BitBucket-Based IDE. Realizing that pyGame was already included, as well as everything needed to handle the Raspberry pins, was a stroke of good luck.
+We conclusively proved this approach by adding a bit of scotch tape to act as the substrate that the "Pits" and "Holes" could then be modified upon. We used a marker to block the beam, and a hole punch to allow it. After this modification we could pull coded letters through the beam at any speed with no trouble. You could even leave the code in place halfway through the sequence, come back the next day, and complete the transmission.
+
+In the remaining time we made the binary codes for each letter and attached them to straws to make them easier to push through the beam by threading the straw into the channel bar that held the laser rig. Eventually, I attached an old optical cable and fed the beam into it, with the other end near the photoresistor. The RaspberryPi code was trival, largely due to using Adafruit's Learning System and BitBucket-Based IDE. Realizing that pyGame was already included, as well as everything needed to handle the Raspberry pins, was a stroke of good luck.
 
 
 
 Materials:
 
 15 mW Bench laser - $30 (a laser pointer would probably work fine)
+
 RasberryPi - $35
+
 Adafruit Pi Cobbler - $8
+
 Two Meters of 80/20 channel - $20
 
 Scotch Tape (opaque, not the clear stuff)
+
 Laminated Sheets (empty, heat sealed)
+
 Black Marker
+
 Hole Punch (if you have a vertical slot type, used for scrapbooking, you can fit more letters in a smaller space)
 
 
 Build Time:
 
 Laser mount and POC/research: 2 hours
+
 RaspberryPi photoresistor and rig: 30 mins
+
 Python sensor code and display code: 45 mins
+
 Making the binary letter representations: 4 hours
 
 
