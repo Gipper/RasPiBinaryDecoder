@@ -8,7 +8,8 @@ A very quick build using Adafruit's Learning build and PyGame to read and displa
 ![RaspiDecoder](http://gipper.github.com/RasPiBinaryDecoder/images/RaspiDecoder.png)
 
 
-Project Background/History:
+Project Background/History
+==================
 
 This project was developed to present the concepts of optical data encoding to a grade school audience. One of the extra activities at our local school is a family science night where families develop and present demonstrations to each other. I had just picked up a used bench laser, and was considering methods to modulate the beam so that information could be sent across the room. Modulating the laser in some way electronically would be a great project, but I was getting a bit worried as we were less than a week out from the event.
 
@@ -26,7 +27,8 @@ In the remaining time we made the binary codes for each letter and attached them
 
 
 
-Materials:
+Materials
+==================
 
 15 mW Bench laser - $30 (a laser pointer would probably work fine)
 
@@ -45,7 +47,8 @@ Black Marker
 Hole Punch (if you have a vertical slot type, used for scrapbooking, you can fit more letters in a smaller space)
 
 
-Build Time:
+Build Time
+==================
 
 Laser mount and POC/research: 2 hours
 
@@ -59,7 +62,8 @@ Making the binary letter representations: 4 hours
 ![BinaryLetters](http://gipper.github.com/RasPiBinaryDecoder/images/BinaryLetters.png)
 
 
-Basic Workflow:
+Basic Workflow
+==================
 
 1. Get a nice coherent laser. This one was obtained from: www.surplusgizmos.com. Surplus Gizmos rocks, you should get yourself there right now and say hello to Mike.
 
