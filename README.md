@@ -25,7 +25,7 @@ We conclusively proved this approach by adding a bit of scotch tape to act as th
 
 In the remaining time we made the binary codes for each letter and attached them to straws to make them easier to push through the beam by threading the straw into the channel bar that held the laser rig. Eventually, I attached an old optical cable and fed the beam into it, with the other end near the photoresistor. The RaspberryPi code was trival, largely due to using Adafruit's Learning System and BitBucket-Based IDE. Realizing that pyGame was already included, as well as everything needed to handle the Raspberry pins, was a stroke of good luck.
 
-It was amazing how transfixed even young kids were as they watched the letters appear on screen exactly as they had arranged the physical representations. Since this process happens around the world trillions upon of times every microsecond, but is largely hidden to us, it was entertaining to see a super-slow speed demonstration.
+It was amazing how transfixed even young kids were as they watched the letters appear on screen exactly as they had arranged the physical representations. Since this process happens around the world trillions upon trillions of times every microsecond, but is largely hidden to us, it was entertaining to see a super-slow speed demonstration. It was also a good time to remind kids that they are driving around with a laser in their car (pew pew), and that there are lasers in MANY places you may not expect.
 
 Materials
 ==================
